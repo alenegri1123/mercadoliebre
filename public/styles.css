@@ -32,7 +32,7 @@ header .barraBusqueda {
     background-color: white;
     padding: 5px;
     margin: auto;
-    border-radius: 5px;
+    border-radius: 6px;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
