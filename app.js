@@ -21,7 +21,8 @@ app.post('/', function (req, res) {
 })
 
 const port = process.env.PORT || 3004;
-app.listen(port,() => console.log('Servidor corriendo en el puerto' + PORT));
+app.listen(port,() => console.log('Servidor corriendo en el puerto${port} '));
+
 
 app.listen(3223, () => {
     console.log("servidor Meliebre funcionando papaa")
